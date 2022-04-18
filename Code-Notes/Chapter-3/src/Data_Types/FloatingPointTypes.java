@@ -1,6 +1,7 @@
 package Data_Types;
 
 import java.util.Arrays;
+import static java.lang.Math.sqrt;
 
 /**
  * The floating-point numbers are numbers with fractional parts, they're 2 types: float and double.
@@ -22,6 +23,8 @@ public class FloatingPointTypes {
         double ammountInCashRichGuy3;
         double ammountInCashRichGuy4;
 
+        double testIEEE754Specification = 0;
+
         ammountInCash = 1.234F;
         ammountInCash += 1.234;
         ammountInCash2 = 1234;
@@ -36,6 +39,18 @@ public class FloatingPointTypes {
         System.out.println(ammountInCashRichGuy2);
         System.out.println(ammountInCashRichGuy3);
         System.out.println(ammountInCashRichGuy4);
+
+        // result NaN
+        System.out.println(testIEEE754Specification / 0);
+
+        // result NaN
+        System.out.println(sqrt(-90) / testIEEE754Specification);
+
+        // Result positive Infinity
+        System.out.println(90 / testIEEE754Specification);
+
+        // Result negative Infinity
+        System.out.println(-90 / testIEEE754Specification);
 
     }
 }
