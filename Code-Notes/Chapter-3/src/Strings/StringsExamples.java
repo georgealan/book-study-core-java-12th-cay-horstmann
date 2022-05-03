@@ -99,5 +99,9 @@ public class StringsExamples {
         int codePoint = capturarNumeroIndice.codePointAt(index);
         System.out.println("Capturamos o indice: " + codePoint + " da String.\n");
 
+        // Return the number of Unicode points in the specified text range
+        codePoint = capturarNumeroIndice.offsetByCodePoints(0, 2);
+        System.out.println("Capturamos o range: " + codePoint + "\n");
+
     }
 }
