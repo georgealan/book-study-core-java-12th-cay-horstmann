@@ -79,7 +79,25 @@ public class StringsExamples {
         }
 
 
+        /**
+         * Code Points and Code Units
+         */
 
+        // Get the true lenght, the number of code points
+        String verdadeiroTamanhoDaPalavra = "Jabuticabeira";
+        int cpCount = verdadeiroTamanhoDaPalavra.codePointCount(0, verdadeiroTamanhoDaPalavra.length());
+        System.out.println("Esse é o verdadeiro tamanho da palavra contina na variável cpCount: " + cpCount + "\n");
+
+        // Get code unit at position n where n is between 0 and s.lenght()
+        char firstLetter = verdadeiroTamanhoDaPalavra.charAt(0);
+        char lastLetter = verdadeiroTamanhoDaPalavra.charAt(12);
+        System.out.println("A primeira letra da variável é: " + firstLetter + "\n A segunda letra da variável é: " + lastLetter + "\n");
+
+        // Get by ith code point
+        String capturarNumeroIndice = "Seiya";
+        int index = capturarNumeroIndice.offsetByCodePoints(0, 1);
+        int codePoint = capturarNumeroIndice.codePointAt(index);
+        System.out.println("Capturamos o indice: " + codePoint + " da String.\n");
 
     }
 }
