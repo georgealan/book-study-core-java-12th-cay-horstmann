@@ -1,5 +1,6 @@
 package Input_and_Output;
 
+import java.io.Console;
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -46,5 +47,6 @@ public class InputExample1 {
         int yearOfBirth = inputInformations.nextInt();
 
         getAgeOfPerson(personName, dayOfBirth, monthOfBirth, yearOfBirth);
+
     }
 }
