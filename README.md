@@ -4,7 +4,7 @@
      💻 <a href="https://horstmann.com/corejava/" alt="Core Java by Horstmann Official Site" target="_blank"> Core Java Vol. I and II, 12th Edition by Cay S. Horstmann </a>
 </h1>
 
-![]()
+![](https://raw.githubusercontent.com/georgealan/book-study-core-java-12th-cay-horstmann/main/assets/CoreJavabanner.jpg)
 
 <h3 align="center">
     🏆 Core Java by Cay S. Horstmann and Gary Cornell is aimed at experienced programmers who want to learn how to write useful Java applications. No hype, no toy code, no language lawyering, just solid facts and in-depth research to help you write real programs. 💚
